@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+  <input type="text" id="textinput" placeholder="type here">
+  <p id="message"></p>
+  <script>
+    document.getElementById("textinput").addEventListener('input',function()
+    {
+      var inputvar = document.getElementById("textinput").value;
+      document.getElementById('message').innerHTML=inputvar;
+    })
+    const textinput = document.getElementById("textinput");
+    const message = document.getElementById("message");
+    
+      
+  </script>
+</body>
+</html>
